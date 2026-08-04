@@ -150,3 +150,10 @@ Generate the response in the following format.
 
     except Exception as e:
         st.error(f"Error: {e}")
+
+        st.success("Email Generated Successfully!")
+
+        st.markdown(response.content)
+
+    except Exception as e:
+        st.error(f"Error: {e}")
