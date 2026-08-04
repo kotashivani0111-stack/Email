@@ -4,6 +4,7 @@ from pathlib import Path
 
 import streamlit as st
 from dotenv import load_dotenv
+from groq import Groq
 from langchain_groq import ChatGroq
 from langchain_core.prompts import ChatPromptTemplate
 
